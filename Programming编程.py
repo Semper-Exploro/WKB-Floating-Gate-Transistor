@@ -7,8 +7,8 @@ hbar = 1.0545718e-34 # Reduced Planck constant (J·s)
 e_charge = 1.60217662e-19 # Electron charge (C)
 def programming_coefficient(d_tun, V_prog, C_control, C_tunnel,
                            electron_energy=0.0, # Electron energy (eV)
-                           phi_b=3.1, # Barrier height (eV)
-                           m_star_ratio=0.5): # Effective mass ratio
+                           phi_b=3.2, # Barrier height (eV)
+                           m_star_ratio=0.42): # Effective mass ratio
     d_tun_m = d_tun * 1e-9
     C_control_F = C_control * 1e-15
     C_tunnel_F = C_tunnel * 1e-15
